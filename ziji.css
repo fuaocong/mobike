@@ -1,0 +1,66 @@
+html,body,.swiper-container,.swiper-slide{width: 100%;height: 100%}
+body{font-size: 16px;line-height: 1.42857143}
+.container-md{width: 1040px;margin: auto;padding: 0 20px}
+.right .nav{position: absolute;background: white;width: 240px;padding-top: 15px;display: none}
+.right .nav .flex-box{line-height: normal;float: none;padding: 8px 0}
+.right .nav .flex-box a{color: #000;font-size: 20px}
+.right .nav .flex-box p{color: #000;padding:0 20px;height:20px;font-size: 14px}
+.nav:after{display:block;content: "";width: 0;height:0;border-style: solid;border-color: transparent transparent white transparent;position: absolute;border-width:8px;top:-16px;left: 30px}
+.right li:hover.nav{display: block}
+.swiper-slide{background-repeat:no-repeat;background-position: center;background-size: cover}
+.swiper-wrapper{position: relative}
+.header{width:100%;height: 50px;line-height: 50px;padding: 15px 0;position: absolute;top: 0;left: 0;z-index: 10}
+.header .left .logo-links{float: left}
+.header .right li{float:right }
+.header .right a{font-weight: 400;font-size: 16px;cursor: pointer;color: white;padding: 8px 20px}
+.header .right .app:hover .nav{display: block}
+.heading-wrap{width:100%;height: 146px;position: absolute;top: 50%;left: 0;margin-top:-73px;z-index: 10}
+.heading-wrap .font-logo{margin: 0 0 20px -2px;font-size:420%;color: white;font-weight:700;line-height: 1;font-family: Overpass, 'Helvetica Neue', Helvetica, 'PingFang SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', Arial, Verdana, sans-serif;
+ letter-spacing: -.04em;}
+.heading-wrap input{width: 273px;height: 59px;padding: 14px 26px;border: none;border-radius: 6px;font-size: 22px;color: white;background:rgba(0, 0, 0, .6);font-weight: bold;letter-spacing: .1em;box-shadow: rgba(106, 73, 76, 0.6) 0 6px 30px 0;
+}
+.heading-wrap input:hover{box-shadow: rgba(59, 54, 48, 0.6) 0 6px 30px 0;background: rgba(0, 0, 0, .8);cursor: pointer}
+.news{z-index:10;position: absolute; bottom: 0;left: 0;padding: 10px;width: 100%;height: 22px;background: rgba(102, 77, 79, 0.4)}
+.news .text{width: 1080px;height: 22px;margin: auto;line-height: 22px}
+.news .text .left{font-size:12px;font-weight: normal;font-style:normal;
+padding: 0 8px;border-radius: 4px;
+background: linear-gradient(to bottom, #ec614f 0%, #ff2e2e 100%);
+box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);width: 36px;float: left}
+.news .text .right{float: left;margin-left: 5px}
+.news .text .right a{color: white;font-weight: 300}
+.hero-promos{margin-left: -3px;margin-top: 2px;width: 100%;}
+.hero-promos li{width:25%;float: left;box-sizing: border-box;padding: 37px;background-size: cover;height: 260px;border-left:3px solid #fff}
+.hero-promos li h3{text-align: center;font-size: 24px;font-weight: 400;color: white;}
+.wrap{width:100%;border-bottom: 1px solid #eee}
+.wrap .meta-link{width:33.33%;height: 50px;padding:45px 0;float: left}
+.wrap .meta-link .icon{width:50px;height: 50px;margin-right: 10px;background-size:contain;background-repeat: no-repeat;background-position: center center;display: inline-block;vertical-align: middle}
+.meta-link .right{display: inline-block;vertical-align:middle}
+.meta-link .right h3{font-weight: 400;font-size: 16px;text-align: left}
+.meta-link .right p{font-weight: 300}
+.meta-link:nth-child(2){text-align: center}
+.meta-link:nth-child(3){text-align: right}
+.footer{width:100%;height:247px;border-bottom: 1px solid #eee}
+.footer .container-md{padding: 45px 20px}
+.footer .left{margin-right: 40px;width: 399px;float: left}
+ .footer .left .pic{margin-bottom: 10px}
+.last .footer .left li{line-height: 2.3}
+.footer .left img{width: 160px;height: 37px}
+.footer .right{width:601px;float: left;}
+.footer .right ul{float:left;width: 25%}
+ .footer .right li{width: 65px}
+ .footer .right .title{font-weight: bold;margin-bottom: 10px;}
+ .footer .right li a{color: #000}
+.copyRight{width:100%;padding: 45px 0}
+.copyRight .copy ul{float: left}
+.copyRight .copy li{font-size: 12px;color: #aaa;line-height: 2.3}
+.copyRight .copy .pic img{width: 15px;height: 15px;margin-top: 4px}
+.copyRight .copy .foot-pic{height:58px;float: right}
+.copyRight .copy .one{margin: 0 10px}
+
+
+/*手机端适配=媒体查询*/
+/*@media screen and (判断条件) {css的代码}*/
+@media screen and (max-width: 1080px) {.hero-promos li{width: 50%}.container-md{width: 100%}.wrap .meta-link{box-sizing: border-box;width: 33.33%}
+}
+@media screen and (max-width: 640px) {.hero-promos li{width: 100%}
+}
